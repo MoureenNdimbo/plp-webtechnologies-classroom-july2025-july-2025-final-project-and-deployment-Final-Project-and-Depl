@@ -13,4 +13,5 @@ Features
 -Form validation on Contact page
 
 Live URL
-https://github.com/MoureenNdimbo/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/commits?author=MoureenNdimbo
+
+https://moureenndimbo.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
