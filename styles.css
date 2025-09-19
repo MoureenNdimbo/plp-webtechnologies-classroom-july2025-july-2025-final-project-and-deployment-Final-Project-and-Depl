@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: coral;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Animated Box Section */
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    margin: 20px auto;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+#box.animate {
+    transform: translateX(200px) rotate(45deg);
+    background-color: lightcoral;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
